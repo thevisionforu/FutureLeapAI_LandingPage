@@ -4,7 +4,19 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#090706">
   <meta name="description" content="Learn to build real AI agents, end-to-end automations, RAG and multi-agent systems with FutureLeapAI.">
-  <title>AI Agent Hackathon — FutureLeapAI</title>
+  <title>Recorded Agentic AI Course — FutureLeapAI</title>
+  <!-- Meta Pixel: standard page-view measurement -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;
+      s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s);
+    }(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','3014884522243312');
+    fbq('track','PageView');
+  </script>
   <style>
     :root{--ink:#090706;--panel:#120d09;--panel2:#1b1009;--line:#433023;--white:#fff7ed;--soft:#d7c2ae;--muted:#ad9988;--orange:#ff7a22;--gold:#ffb04b;--max:1120px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--white);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -22,10 +34,10 @@
 </div></header>
 <main id="top">
 <section class="hero grid-bg"><div class="wrap">
-  <div class="tag">AI Agent Hackathon · Live &amp; Practical</div>
+  <div class="tag">Agentic AI Course · Recorded &amp; Practical</div>
   <h1>DON’T JUST USE AI.<span>LEARN TO BUILD WITH IT.</span></h1>
-  <p class="hero-copy">Learn how real AI Agents are built, automated and applied to real-world problems — even if you don't have a coding background.</p>
-  <div class="perks"><span><b>✓</b>Beginner Friendly</span><span><b>✓</b>Practical &amp; Live</span><span><b>✓</b>No Coding Background Required</span></div>
+  <p class="hero-copy">Learn how real AI agents are built, automated and applied to real-world problems through recorded sessions you can follow at your own pace — no coding background required.</p>
+  <div class="perks"><span><b>✓</b>Beginner Friendly</span><span><b>✓</b>Learn at Your Own Pace</span><span><b>✓</b>No Coding Background Required</span></div>
   <div class="price-card" id="offer"><div class="offer-label">Current offer</div><div class="price-row"><span class="regular">Regular price <s>₹9,999</s></span><span class="price">₹1,999</span></div><div class="save">Save ₹8,000 on your enrollment</div><a class="buy" href="https://courses.futurereadycareer.in/l/042d569bb5" target="_blank" rel="noopener">Buy now for ₹1,999</a><p class="fine">Includes recordings of all sessions and 12-month access. Secure checkout.</p></div>
 </div></section>
 <section class="section discover grid-bg" id="discover"><div class="wrap">
@@ -62,15 +74,38 @@
   <div class="price-card"><div class="offer-label">Current offer</div><div class="price-row"><span class="regular">Regular price <s>₹9,999</s></span><span class="price">₹1,999</span></div><div class="save">Save ₹8,000</div><a class="buy" href="https://courses.futurereadycareer.in/l/042d569bb5" target="_blank" rel="noopener">Buy now for ₹1,999</a><p class="fine">Includes recordings of all sessions and 12-month access. Review enrollment and payment details before you buy.</p></div>
 </div></section>
 <section class="faq" id="faq"><div class="wrap"><div class="section-title"><div class="kicker">A few quick answers</div><h2>Before you join</h2></div><div class="faq-list">
-  <details><summary>Do I need a coding background?</summary><p>No coding background is required to begin. The session focuses on how agent workflows are designed and how their logic fits together.</p></details>
+  <details><summary>Do I need a coding background?</summary><p>No coding background is required to begin. The recorded course focuses on how agent workflows are designed and how their logic fits together.</p></details>
   <details><summary>What will I learn about?</summary><p>Real AI Agents, end-to-end automation, RAG, multi-agent systems, income opportunities through freelancing, consulting, AI services and digital products, plus recurring income ideas.</p></details>
+  <details><summary>Is this a live workshop or a recorded course?</summary><p>This is a recorded course. Learn at your own pace; enrollment is not a booking for a scheduled live workshop.</p></details>
   <details><summary>Will I get the session recordings?</summary><p>Yes. Recordings of all sessions will be provided.</p></details>
   <details><summary>How long will I have access?</summary><p>You will have access for 12 months.</p></details>
-  <details><summary>Will this guarantee an income?</summary><p>No. The session shares possible application paths and reusable solution ideas; outcomes depend on how you apply your skills and the opportunities you pursue.</p></details>
+  <details><summary>Will this guarantee an income?</summary><p>No. The course shares possible application paths and reusable solution ideas; outcomes depend on how you apply your skills and the opportunities you pursue.</p></details>
 </div></div></section>
 </main>
 <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#top"><img src="assets/futureleapai-mark.svg" alt=""><span>FutureLeap<em>AI</em></span></a><span>Learn the logic. Build for what’s next.</span><a href="https://courses.futurereadycareer.in/l/042d569bb5" target="_blank" rel="noopener">Course registration</a></div></footer>
 <div class="mobile-buy"><a class="buy" href="https://courses.futurereadycareer.in/l/042d569bb5" target="_blank" rel="noopener">Buy now · ₹1,999</a></div>
+<script>
+  // Measure an enrollment-link click separately from a checkout or purchase.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href]');
+    if (!link) return;
+    var target = new URL(link.href, window.location.href);
+    if (target.hostname !== 'courses.futurereadycareer.in' ||
+        target.pathname !== '/l/042d569bb5') return;
+    var incoming = new URLSearchParams(window.location.search);
+    ['fbclid','utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function (key) {
+      var value = incoming.get(key);
+      if (value && !target.searchParams.has(key)) target.searchParams.set(key, value);
+    });
+    link.href = target.toString();
+    if (typeof window.fbq === 'function') {
+      window.fbq('trackCustom', 'CourseCheckoutClick', {
+        content_name: 'Agentic AI Course | Recorded',
+        content_ids: ['6b01f55085a9ff21955197d6']
+      });
+    }
+  });
+</script>
 </body></html>
 
 
